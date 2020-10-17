@@ -1,0 +1,158 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe > h1 {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: 100;
+  color: rgb(19, 18, 18);
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.aboutMe > img {
+  /* object-fit: contain; */
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 43.69%;
+  position: relative;
+}
+
+.aboutMe > p {
+  margin-bottom: 20px;
+  width: 600px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: rgb(68, 63, 63);
+}
+
+.details {
+  background-color: rgba(197, 178, 178, 0.2);
+  height: 200px;
+  width: 600px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.details > h2 {
+  position: relative;
+  bottom: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding-top: 10px;
+  color: rgb(68, 63, 63);
+}
+
+.logos {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.logos > .logo-1 img {
+  width: 60px;
+  height: 50px;
+  margin: 25px 0 0 100px;
+  padding-bottom: 10px;
+}
+
+.logos > .logo-2 img {
+  width: 60px;
+  height: 50px;
+  margin: 25px 0 0 100px;
+  padding-bottom: 10px;
+}
+
+.logos > .logo-3 img {
+  width: 60px;
+  height: 50px;
+  margin: 25px 0 0 100px;
+  padding-bottom: 10px;
+}
+
+blockquote {
+  font-size: 14px;
+  margin-left: 65%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe > p {
+    width: 450px;
+  }
+
+  .details {
+    width: 450px;
+  }
+
+  .logos > .logo-1 img {
+    margin: 25px 0 0 5px;
+    padding-bottom: 10px;
+  }
+
+  .logos > .logo-1 > blockquote {
+    position: relative;
+    right: 30%;
+  }
+
+  blockquote {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .aboutMe {
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .aboutMe > p {
+    width: 350px;
+  }
+
+  .details {
+    width: 380px;
+  }
+
+  .logos .logo-1 img{
+    height: 50px;
+    width: 40px;
+  }
+
+  .logos .logo-2 img{
+    height: 45px;
+    width: 35px;
+  }
+
+  .logos .logo-3 img{
+    height: 45px;
+    width: 35px;
+  }
+
+  blockquote {
+    font-size: 12px;
+    padding: 0 0 0 5px;
+  }
+
+  .details > h2 {
+    font-size: 20px;
+  }
+}
+
+/* .bg1{
+  background-color: rgba(197, 178, 178, 0.8);
+} */

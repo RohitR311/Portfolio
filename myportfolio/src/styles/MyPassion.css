@@ -1,0 +1,196 @@
+.passion {
+  /* display: none; */
+  min-height: 800px;
+  width: 100%;
+  background-color: rgba(197, 178, 178, 0.2);
+  justify-content: center;
+  text-align: center;
+}
+
+.display {
+  display: block;
+}
+
+.passion > h2 {
+  font-weight: 40;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  padding-top: 80px;
+  color: rgb(68, 63, 63);
+}
+
+.do-logos {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 0; */
+  margin-top: 50px;
+}
+
+.do-logos > .content-1 > .do-logo1 {
+  background-color: blueviolet;
+  border-radius: 50%;
+  animation: logo1 0.8s ease-in;
+  width: 200px;
+  height: 200px;
+  margin-left: 75px;
+}
+.content-1,
+.content-2,
+.content-3 {
+  width: 350px;
+}
+
+.content-2 {
+  margin-top: 20px;
+}
+
+.content-1 > p,.content-2 >p,.content-3>p{
+  margin-bottom: 40px;
+  font-size: 1.02rem;
+}
+
+.content-1 > h2 {
+  margin: 40px 0;
+  color: rgb(68, 63, 63);
+  text-transform: uppercase;
+}
+
+.content-2 > h2 {
+  margin: 40px 0;
+  color: rgb(68, 63, 63);
+  text-transform: uppercase;
+}
+
+.content-3 > h2 {
+  margin: 40px 0;
+  color: rgb(68, 63, 63);
+  text-transform: uppercase;
+}
+
+.do-logos > .content-2 > .do-logo2 {
+  background-color: blueviolet;
+  border-radius: 50%;
+  animation: logo2 0.8s ease-in;
+  animation-delay: 0.4s;
+  width: 200px;
+  height: 200px;
+  margin-left: 75px;
+}
+
+.do-logos > .content-3 > .do-logo3 {
+  background-color: blueviolet;
+  border-radius: 50%;
+  animation: logo3 0.8s ease-in;
+  animation-delay: 0.8s;
+  width: 200px;
+  height: 200px;
+  margin-left: 75px;
+}
+
+/* @keyframes logo1 {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes logo2 {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes logo3 {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
+
+.passion-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.do-logos > .content-1 > .do-logo1 > img:hover {
+  animation: rotater 0.5s ease-in-out;
+}
+
+.do-logos > .content-2 > .do-logo2 > img:hover {
+  animation: rotater 0.5s ease-in-out;
+}
+
+.do-logos > .content-3 > .do-logo3 > img:hover {
+  animation: rotater 0.5s ease-in-out;
+}
+
+@keyframes rotater {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.do-logos > .content-1 > .do-logo1 > img {
+  width: 60px;
+  height: 50px;
+  /* margin: 25px 0 0 100px; */
+  /* margin-left: 200px; */
+  padding: 70px;
+}
+
+.do-logos > .content-2 > .do-logo2 > img {
+  width: 60px;
+  height: 50px;
+  /* margin: 25px 0 0 100px; */
+  /* background-color: blueviolet; */
+  padding: 70px;
+  /* border-radius: 50%; */
+}
+
+.do-logos > .content-3 > .do-logo3 > img {
+  width: 60px;
+  height: 50px;
+  /* margin: 25px 0 0 100px; */
+  /* background-color: blueviolet; */
+  padding: 70px;
+  /* border-radius: 50%; */
+}
+
+@media screen and (max-width: 674px) {
+  .do-logos {
+    flex-direction: column;
+  }
+
+  .do-logos .do-logo1,
+  .do-logo2,
+  .do-logo3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .passion{
+    width: 100%;
+    margin: 0 auto;
+  }
+}

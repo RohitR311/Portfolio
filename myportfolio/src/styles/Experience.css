@@ -1,0 +1,141 @@
+.experience {
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header > h2 {
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.3rem;
+  margin-top: 100px;
+  color: rgb(68, 63, 63);
+}
+
+.header > p {
+  width: 500px;
+  margin: 25px 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech {
+  margin: 25px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech > h3 {
+  letter-spacing: 1.4px;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.logosexp {
+  position: relative;
+  /* width: 450px; */
+  width: 700px;
+  min-height: 350px;
+  background-color: rgba(197, 178, 178, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 120px;
+}
+
+.logosexp img {
+  width: 65px;
+  height: 65px;
+  margin: 20px 40px;
+}
+
+.bg-image {
+  width: 100vw;
+  min-height: 400px;
+  background-image: url("/images/Laptop-Image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.bg-image:before {
+  content: "";
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  /* filter: blur(2px); */
+  background-color: lightgrey;
+  opacity: 0.25;
+}
+
+.bg-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-content > h3 {
+  letter-spacing: 1.3px;
+  color: rgb(252, 235, 235);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 150px 0 0 0;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.bg-content > a > button{
+    background: none;
+    position: relative;
+    border-color: rgb(252, 235, 235);
+    padding: 10px 25px;
+    margin: 15px 15px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: rgb(252, 235, 235);
+    transition: 0.2s;
+    /* z-index: 1; */
+}
+
+.bg-content > a > button:hover {
+    /* transform: scaleX(1.1); */
+    padding: 10px 35px;
+    background-color:rgba(197, 178, 178, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .logosexp {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .experience{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .header > p {
+    width: 350px;
+  }
+}
