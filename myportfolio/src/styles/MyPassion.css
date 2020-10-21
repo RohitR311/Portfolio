@@ -45,6 +45,11 @@
 
 .content-2 {
   margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.content-3 {
+  margin-bottom: -2px;
 }
 
 .content-1 > p,.content-2 >p,.content-3>p{

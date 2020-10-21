@@ -5,12 +5,17 @@ import $ from "jquery";
 
 function Nav() {
 
-  $(() => {
-    $(document).scroll(function () {
-      var $nav = $(".nav-container");
-      $nav.toggleClass("scroll", $(this).scrollTop() > $nav.height());
-    });
-  });
+  // $(() => {
+  //   $(document).scroll(function () {
+  //     var $nav = $(".nav-container");
+  //     $nav.toggleClass("scroll", $(this).scrollTop() > $nav.height());
+  //   });
+  // });
+
+  window.addEventListener('scroll',() => {
+    let nav = document.querySelector(".nav-container");
+    nav.classList.toggle("scroll",window.scrollY > 0)
+  })
 
   const openHamMenu = () => {
     document.getElementsByTagName("ul")[0].classList.toggle("open");
@@ -55,7 +60,7 @@ function Nav() {
               to="my-passion"
               spy={true}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={500}
               delay={400}
             >
@@ -66,7 +71,7 @@ function Nav() {
               to="my-exp"
               spy={true}
               smooth={true}
-              offset={-45}
+              offset={-15}
               duration={500}
               delay={400}
             >

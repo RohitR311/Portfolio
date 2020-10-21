@@ -33,8 +33,8 @@ function Contact() {
       />
       <h3>Get in Touch!</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nobis
-        corporis facilis autem dolores ex modi quasi architecto ipsum officiis!
+        Whether you have an idea for a project or just want to chat, feel free
+        to send me an email!
       </p>
       <a href="mailto:rohit.rajan31101@gmail.com?subject=your title&body=TThe message">
         <button onClick={OnClickContact}>Say Hello</button>

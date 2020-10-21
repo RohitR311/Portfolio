@@ -59,11 +59,11 @@ function MyPassion() {
           </div>
           <h2>Development</h2>
           <p>
-            With a strong foundation in computer science, I'm passionate about
-            web design and development, and interested in mobile app
-            development. As I grow as a developer, I hope to write clean,
+            I'm passionate about web design and development, and interested in
+            machine learning. As I grow as a developer, I hope to write clean,
             readable code that can be used by others and leveraged to create
-            beautiful software.
+            beautiful software.I'm a self-taught web developer who had a big
+            break for a few months.
           </p>
         </div>
         <div
@@ -76,10 +76,10 @@ function MyPassion() {
           </div>
           <h2>Involvement</h2>
           <p>
-            At Northeastern, I'm currently the web chair for nuWiT (NU Women in
-            Tech) as well as a Teaching Assistant for the undergrad HCI course.
-            Previously, I've been involved with the club water polo team, the
-            resident student association, and the ski and snowboard club
+            At SRG Solutions IT Pvt Ltd, I'm currently a Junior Web Developer as
+            well as a person who gets to learn a lot being present there.
+            Previously, I've been involved with the Karate Indo Ryu Federation
+            till the 8th standard as well as Wushu 2 years after that. 
           </p>
         </div>
       </div>

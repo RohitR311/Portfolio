@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../styles/AboutMe.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -32,13 +32,13 @@ function AboutMe() {
         alt="Myself"
       />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore
-        aut corporis at accusantium enim, fuga eius quia a magnam? Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Nobis, eaque explicabo
-        harum error animi quis odio temporibus reiciendis iste unde officia
-        provident exercitationem illum, illo necessitatibus. Culpa dolorem quia
-        blanditiis. <br /> <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        Hey! My name is Rohit and I'm a Web Developer with a passion for front
+        end development and design. I'm currently a second year student at Terna
+        College of Engineering(TEC) pursuing a degree in Computer Engineering. I
+        aspire toward a career that will allow me to channel my creativity
+        through crafting beautiful software and engaging experiences. <br />{" "}
+        <br />
+        When I'm not on the computer, I enjoy reading books, swimming, and solving cubes.
       </p>
 
       <div className="details">

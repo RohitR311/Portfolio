@@ -5,13 +5,13 @@ function Footer() {
   return (
     <div className="footer">
       <div className="foot-imgs">
-        <a href="#">
+        <a href="https://www.facebook.com/rohit.rajan.9047/">
           <img src="./images/Facebook.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="https://twitter.com/RohitRa18513329">
           <img src="./images/Twitter.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/rohit.rajan333/">
           <img src="./images/Insta.svg" alt="" />
         </a>
         <a href="#">

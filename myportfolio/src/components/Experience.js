@@ -28,8 +28,9 @@ function Experience() {
       <div data-aos="fade-in" data-aos-duration="700" className="header">
         <h2>Experience</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quo
-          repellendus neque? Et, facilis modi!
+          I've been doing Web Development for about a year now with a long gap
+          in between, and I'm always eager to learn more in this fast paced
+          industry.
         </p>
       </div>
       <div data-aos="fade-in" data-aos-duration="700" className="tech">
