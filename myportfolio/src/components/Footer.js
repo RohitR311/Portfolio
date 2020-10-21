@@ -20,10 +20,10 @@ function Footer() {
         <a href="#">
           <img src="./images/Code-Pen.svg" id="vbad" alt="" />
         </a>
-        <a href="#">
+        <a href="https://github.com/RohitR311/">
           <img src="./images/GitHub.svg" id="verybad" alt="" />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
           <img src="./images/LinkedIn.svg" alt="" />
         </a>
       </div>

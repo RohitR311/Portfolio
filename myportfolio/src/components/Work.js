@@ -57,33 +57,33 @@ function Work() {
       <div className="work-img">
         <div className="work-img1">
           <img src="./images/WPlus-search.png" className="plus1" alt="" />
-          <Link to="">
+          <a href="https://rr-chess-timer.netlify.app/">
             <img src="./images/Chess_Timer.png" alt="" className="work-1" />
-          </Link>
+          </a>
           <p className="des1">Chess Timer</p>
         </div>
 
         <div className="work-img2">
           <img src="./images/WPlus-search.png" className="plus2" alt="" />
-          <Link to="">
+          <a href="https://rrcolor-game.netlify.app/">
             <img src="./images/Color-Game.png" alt="" className="work-2" />
-          </Link>
+          </a>
           <p className="des2">Color Game</p>
         </div>
 
         <div className="work-img3">
           <img src="./images/WPlus-search.png" className="plus3" alt="" />
-          <Link to="">
+          <a href="https://rr-basic-cuisine.netlify.app/">
             <img src="./images/Cuisine.png" alt="" className="work-3" />
-          </Link>
+          </a>
           <p className="des3">Cuisine</p>
         </div>
 
         <div className="work-img4">
           <img src="./images/WPlus-search.png" className="plus4" alt="" />
-          <Link to="">
+          <a href="https://rr-stop-watch.netlify.app/">
             <img src="./images/Stop-Watch.png" alt="" className="work-4" />
-          </Link>
+          </a>
           <p className="des4">Stop-Watch</p>
         </div>
       </div>
