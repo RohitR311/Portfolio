@@ -21,6 +21,10 @@ function Nav() {
     document.getElementsByTagName("ul")[0].classList.toggle("open");
   };
 
+  const closeHamMenu = () => {
+    document.getElementsByTagName("ul")[0].classList.remove("open");
+  };
+
   return (
     <div className="nav-container">
       <div className="logo-image">
@@ -53,7 +57,7 @@ function Nav() {
               duration={500}
               delay={400}
             >
-              <li id="abouts">About</li>
+              <li onClick={closeHamMenu} id="abouts">About</li>
             </Link>
             <Link
               activeClass="activate"
@@ -64,7 +68,7 @@ function Nav() {
               duration={500}
               delay={400}
             >
-              <li id="passions">Passion</li>
+              <li onClick={closeHamMenu} id="passions">Passion</li>
             </Link>
             <Link
               // activeClass="activate"
@@ -75,7 +79,7 @@ function Nav() {
               duration={500}
               delay={400}
             >
-              <li id="exp">Experience</li>
+              <li onClick={closeHamMenu} id="exp">Experience</li>
             </Link>
             <Link
               // activeClass="activate"
@@ -86,7 +90,7 @@ function Nav() {
               duration={500}
               delay={400}
             >
-              <li id="works">Work</li>
+              <li onClick={closeHamMenu} id="works">Work</li>
             </Link>
 
             <Link
@@ -98,7 +102,7 @@ function Nav() {
               duration={500}
               delay={400}
             >
-              <li id="contacts">Contact</li>
+              <li onClick={closeHamMenu} id="contacts">Contact</li>
             </Link>
           </ul>
         </div>
